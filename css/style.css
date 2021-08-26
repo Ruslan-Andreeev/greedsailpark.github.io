@@ -43,6 +43,8 @@ body {
 
 .hero-content {
   background: url("../img/Escanor 1.jpg") no-repeat center/cover;
+  border-radius: 30px;
+  object-fit: cover;
 }
 
 .hero-content-text {
@@ -843,6 +845,7 @@ label#phone-error.error {
   .hero-content-text p {
     font-size: 14px;
     line-height: 21.5px;
+    width: 280px;
   }
   .hero-btn {
     padding: 18px 26px;
