@@ -1,0 +1,66 @@
+.price-slider
+    background-color: #9ca89c
+    padding: 88px 0
+.slider
+    min-width: 0
+    overflow: hidden
+    margin: 0 20px  
+    &-content
+        &-wrap
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            justify-content: center
+            background-color: #FFF
+            margin: 0 8px
+            width: 400px
+            height: 550px
+            border-radius: 30px
+            img 
+                border-radius: 30px
+                max-width: 100%
+                margin: 0 auto
+            span
+                font-weight: 500
+                font-size: 24px
+                line-height: 29px
+                color: #000
+                margin-left: 30px
+                padding-top: 13px
+                margin-bottom: 3px
+            small
+                font-weight: 500
+                font-size: 18px
+                line-height: 22px
+                color: #888
+                margin-left: 30px
+                margin-bottom: 19px
+            &-btn
+                padding: 15px 39px
+                background-color: #22C51D
+                border-radius: 10px
+                width: max-content
+                color: #FFF
+                cursor: pointer
+                margin-left: 30px
+                text-decoration: none
+.container-margin
+    position: relative 
+    padding: 0 60px               
+.slick-track
+    display: flex
+.slider .slick-arrow
+    position: absolute
+    top: 50%
+    width: 30px
+    height: 50px    
+    font-size: 0
+    z-index: 2
+    border: none
+    cursor: pointer
+.slider .slick-arrow.slick-prev
+    left: 15px
+    background: url('../img/arrow-left.svg') no-repeat center/cover
+.slider .slick-arrow.slick-next
+    right: 15px  
+    background: url('../img/arrow-right.svg') no-repeat center/cover   
